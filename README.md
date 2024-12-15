@@ -1,0 +1,1 @@
+This repository demonstrates a common error in TypeScript: not handling potential runtime errors. The `bug.ts` file contains a function that can throw an error if the divisor is zero. The program crashes if that error occurs, instead of handling it gracefully. The `bugSolution.ts` file demonstrates how to resolve this using a try-catch block.
